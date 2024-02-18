@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" href="img/logo.png" type="image/icon type">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>submit</title>
+    <link rel="stylesheet" href="css/submit.css">
+</head>
+<body>
+    <div class="main">
+        <h2>Fill Your Response</h2>
+        <form onsubmit="sendEmail(); reset(); return false;" netlify>
+            <input type="text" id="name" placeholder="Enter Your Name" required>
+            <input type="email" name="" id="email" placeholder="Enter Your Email" required>
+            <input type="text" id="number" placeholder="Enter Your Number" required>
+            <input type="text" id="Address" placeholder="Enter Your Address" required>
+            <input type="text" id="package" placeholder="Enter Type Of Package you are looking for">
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+
+
+    <script src="https://smtpjs.com/v3/smtp.js">
+    </script>
+    <script>
+        function sendEmail(){
+            let name=document.getElementById("name").value;
+            let email=document.getElementById("email").value;
+            let number=document.getElementById("number").value;
+            let Address=document.getElementById("Address").value;
+            let package=document.getElementById("package").value;
+            Email.send({
+            Host : "smtp.elasticemail.com",
+            Username : 'sarkarsamrat16112004.1@gmail.com',
+            Password : 'FCF0C9C33FC64843E8E3ED1533B4FF9CA46B',
+            To : 'saikatmodak1994@gmail.com',
+            From : 'sarkarsamrat16112004.1@gmail.com',
+            Subject : "enquiry on rk tour website",
+            Body : `name - ${name} email - ${email} number - ${number} package - ${package} address - ${Address}`
+}).then(
+    message => alert(message)
+);
+        }
+    </script>
+</body>
+</html>
