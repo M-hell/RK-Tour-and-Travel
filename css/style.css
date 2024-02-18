@@ -1,0 +1,971 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Glass+Antiqua&family=Protest+Strike&display=swap');
+html{
+    scroll-behavior: smooth;
+}
+.main{
+    margin:0px;
+    top:0px;
+    left: 0px;;
+}
+.cover{
+   
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.center{
+    background-color: rgb(74, 184, 190);
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.nos{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 30%;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+}
+.name{
+    display: flex;
+    flex-wrap: wrap;
+    width: 60%;
+    justify-content: center;
+    align-items: center;
+    color:white;
+}
+#id1{
+    font-size: 3rem;
+    color: rgb(58, 69, 69);
+}
+#id2{
+    font-size: 2rem;
+    color: white;
+}
+#id3{
+    font-size: 1.5rem;
+    color: white;
+}
+
+.headingmargin{
+    font-family: 'Anton', sans-serif;
+}
+.companyname b{
+font-size: 1.7rem;
+font-family: 'Abril Fatface', serif;
+color: blue;
+}
+.navbar{
+    position: sticky;
+    top: 0px;
+    left: 0px;
+    background-color: rgb(255, 255, 255);
+    height: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    z-index: 5;
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+}
+.navbar ul li{
+    margin: 10px;
+    
+}
+.navbar ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    font-family: 'Exo', sans-serif;
+    transition-property: all;
+    transition-duration: 0.4s;
+}
+.navbar ul li a:hover{
+    color: bisque;
+    font-size: 1.01rem;
+}
+.logo{
+
+    
+    width: 5%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+}
+.logo img{
+    width: 90%;
+    height: 100%;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 90vh;
+}
+
+.section1{
+    display: flex;
+    flex-direction: column;
+    width: 40vw;
+
+
+}
+.section2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+.section2 h1{
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-family: 'Protest Strike', sans-serif;
+    /* letter-spacing: 1.01rem; */
+    text-shadow: 10px 10px 10px black;
+}
+.section2 h2{
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-family: 'Protest Strike', sans-serif;
+    text-shadow: 10px 10px 10px black;
+}
+.buttonorder{
+    display: flex;
+    justify-content: center;
+    margin: 12%;
+}
+.buttonorder a{
+    border: none;
+    background-color: red;
+    padding: 1%;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+}
+.buttonorder{
+    transition-property: all;
+    transition-duration: 1s;
+}
+.buttonorder:hover{
+    text-shadow: 10px 10px 10px black;
+    transform: scale(1.2);
+}
+.content{
+    background-image: url("https://media.cnn.com/api/v1/images/stellar/prod/211028164839-06-lonely-planet-best-countries-to-visit-2022.jpg?q=w_1600,h_1060,x_0,y_0,c_fill");
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition-property: all;
+    transition-duration: 1s;
+    opacity: 1;
+
+}
+.repeatbtn{
+    display: flex;
+    justify-content: center;
+}
+.repeatbtn img{
+    width: 5%;
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 50%;
+}
+.orderheading {
+    font-family: 'Dancing Script', cursive;
+}
+.toporders{
+    height: 100vh;
+    width: 100vw;
+}
+.toporderimages{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 5% 0%;
+}
+.toporderimages img{
+    border: none;
+    border-radius: 2%;
+    box-shadow: 20px 20px 50px black;
+}
+.toporderprices{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 24%;
+    font-weight: bold;
+}
+.toporderratings{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 24%;
+}
+
+
+.offerpage{
+    height: 70vh;
+    width: 100vw;
+}
+.contentofpage{
+    display: flex;
+    justify-content: space-around;
+}
+.imagesinofferpage{
+
+    width: 20vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imagesinofferpage h2{
+    border: 3px solid black;
+    
+    background-color: black;
+    border-radius: 15px;
+    padding: 2%;
+    transition-property: all;
+    transition-duration: 0.5s;
+}
+.imagesinofferpage h2:hover{
+    background-color: rgb(79, 78, 78);
+    color: black;
+}
+.imagesinofferpage h2 a{
+    text-decoration: none;
+    color: white;
+}
+.titleofofferpage{
+    width: 60vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+    
+}
+.reviewcard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    padding: 2%;
+    
+}
+.titleofofferpage button{
+    width: 23%;
+    border-radius: 20px;
+    padding: 5px;
+    color: white;
+    background-color: black;
+    font-weight: bold;
+    border-style: dashed;
+    border-width: 2px;
+    border-color: white;
+    transition-property: all;
+    transition-duration: 1s;
+}
+.titleofofferpage button:hover{
+    background-color: grey;
+}
+#hiddencode{
+    display: none;
+}
+.menupage{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    height: 60vh;
+    background-image: url('https://wanderon.in/_next/image?url=https%3A%2F%2Fstatic.wanderon.in%2Fwp-content%2Fuploads%2F2023%2F06%2Ffeature-bhutan-punakha-dzong-sunset-1326288165-website-1920x1080-fill-gravityauto-min.jpg&w=3840&q=75');
+    color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.mealtype{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mealtype input{
+    margin: 12%;
+    padding: 6%;
+    border-radius: 20px;
+    transition-property: all;
+    transition-duration: 1s;
+    font-weight: bold;
+    border: none;
+    padding: 1.2rem;
+    background-color: rgb(246, 246, 152);
+}
+.mealtype input:hover{
+    color: white;
+    background-color: black;
+}
+.breakfastfood{
+    width: 80vw;
+    height: 60vh;
+    position: relative;
+    top: -30vh;
+    margin: auto;
+    display: flex;
+    z-index: 1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.lunchfood{
+    width: 80vw;
+    height: 60vh;
+    position: relative;
+    top: -91vh;
+    margin: auto;
+    display: flex;
+    z-index: -1;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.snackfood{
+    width: 80vw;
+    height: 60vh;
+    position: relative;
+    top: -151vh;
+    margin: auto;
+    display: flex;
+    z-index: -1;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.dinnerfood{
+    width: 80vw;
+    height: 60vh;
+    position: relative;
+    top: -211vh;
+    margin: auto;
+    display: flex;
+    z-index: -1;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.itemsinmenu1{
+    display: block;
+}
+.itemsinmenu2{
+    display: block;
+}
+.itemsinmenu3{
+    display: block;
+}
+.itemsinmenu4{
+    display: none;
+}
+.itemsinmenu5{
+    display: none;
+}
+.itemsinmenu6{
+    display: none;
+}
+.itemsinmenu7{
+    display: none;
+}
+.itemsinmenu8{
+    display: none;
+}
+.itemsinmenu9{
+    display: none;
+}
+.itemsinmenu10{
+    display: none;
+}
+.itemsinmenu11{
+    display: none;
+}
+.itemsinmenu12{
+    display: none;
+}
+.breakfastfood img{
+    border-radius: 30px;
+    transition-property: all;
+    transition-duration: 1s;
+}
+.breakfastfood img:hover{
+    filter: grayscale(50%);
+    transform: scale(1.04);
+}
+.lunchfood img{
+    border-radius: 30px;
+    transition-property: all;
+    transition-duration: 1s;
+}
+.lunchfood img:hover{
+    filter: grayscale(50%);
+    transform: scale(1.04);
+}
+.snackfood img{
+    border-radius: 30px;
+    transition-property: all;
+    transition-duration: 1s;
+}
+.snackfood img:hover{
+    filter: grayscale(50%);
+    transform: scale(1.04);
+}
+.dinnerfood img{
+    border-radius: 30px;
+    transition-property: all;
+    transition-duration: 1s;
+}
+.dinnerfood img:hover{
+    filter: grayscale(50%);
+    transform: scale(1.04);
+}
+.menupage h1{
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+    font-size: 2.5rem;
+    color: rgb(0, 0, 0);
+}
+.breakfastfood h2{
+    font-family: 'Caveat', cursive;
+}
+.lunchfood h2{
+    font-family: 'Caveat', cursive;
+}
+.snackfood h2{
+    font-family: 'Caveat', cursive;
+}
+.dinnerfood h2{
+    font-family: 'Caveat', cursive;
+}
+.breakfastfood h3{
+    color: rgb(90, 87, 87);
+}
+.lunchfood h3{
+    color: rgb(90, 87, 87);
+}
+.snackfood h3{
+    color: rgb(90, 87, 87);
+}
+.dinnerfood h3{
+    color: rgb(90, 87, 87);
+}
+.contactuspage{
+    position: relative;
+    top: -185vh;
+}
+.contactuspage{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(107, 107, 107);
+    padding: 1.5%;
+
+}
+.connectnow{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.certify{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10%;
+    
+    width: 70rem;
+}
+.connectwhatsapp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+    flex-wrap: wrap;
+    width: 50vw;
+    font-weight: bold;
+}
+.connectmail{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+    width: 50vw;
+    font-weight: bold;
+}
+.anchoradress{
+    text-decoration: none;
+}
+.connectaddress{
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+    border: 2px solid red;
+    width: 50vw;
+    font-weight: bold;
+    border: none;
+    border-radius: 2rem;
+    
+    padding: 1.32%;
+}
+.connectaddress a{
+    text-decoration: none;
+    color: white;
+}
+.connectwithus{
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    width: 100vw;
+    padding: 0px;
+    margin-bottom: 0px;
+}
+.download{
+    text-decoration: none;
+    border: none;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: red;
+    border-radius: 2rem;
+    transition-property: all;
+    transition-duration: 0.5s;
+}
+.download:hover{
+    font-size: 1.1rem;
+    border: 2px solid black;
+}
+hr{
+    color: rgb(0, 0, 0);
+    height: 5px;
+    width: 95vw;
+    background-color: white;
+}
+.face{
+    width: 50%;
+}
+.insta{
+     width: 55%;
+     /* position: relative;
+     top: 2.5vh; */
+}
+
+.socialimages{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15vw;
+    position: relative;
+    left: 1.5%;
+}
+.mailandnumber{
+    padding: 2%;
+    display: flex;
+    width: 50vw;
+    justify-content: center;
+}
+.mailandnumber span{
+    margin: 3%;
+}
+.viewmore{
+    position: relative;
+    top: -193vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.viewmore a{
+    border: none;
+    padding: 1.1%;
+    border-radius: 20px;
+    background-color: yellow;
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+    font-weight: bold;
+    animation-name: explore;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+}
+@keyframes explore{
+    0%{
+        background-color: greenyellow;
+    }
+    10%{
+        background-color: yellow;
+    }
+    20%{
+        background-color: greenyellow;
+    }
+    30%{
+        background-color: yellow;
+    }
+    40%{
+        background-color: greenyellow;
+    }
+    50%{
+       background-color: yellow;
+    }
+    60%{
+        background-color: greenyellow;
+    }
+    70%{
+        background-color: yellow;
+    }
+    80%{
+        background-color: greenyellow;
+    }
+    90%{
+       background-color: yellow;
+    }
+    100%{
+        background-color: greenyellow;
+    }
+}
+.contactusnow{
+    text-decoration: none;
+    border: none;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: red;
+    border-radius: 2rem;
+    margin: 2%;
+    transition-property: all;
+    transition-duration: 0.5s;
+}
+.contactusnow:hover{
+    font-size: 1.1rem;
+    border: 2px solid black;
+}
+.edittonone{
+    text-decoration: none;
+    color: black;
+}
+
+
+@media(min-width:100px) and (max-width:499px){
+    .viewmore{
+        width: 300vw;
+    }
+    .toporderimages img{
+        width: 50vw;
+        height: 50vh;
+    }
+    .toporders{
+        width: 300vw;
+    }
+    .offerpage{
+        width: 140vw;
+    }
+    .breakfastfood{
+        width: 300vw;
+    }
+    .lunchfood{
+        width: 300vw;
+    }
+    .snackfood{
+        width: 300vw;
+    }
+    .dinnerfood{
+        width: 300vw;
+    }
+    .certify{
+        gap: -10%;
+    }
+    .reviewcard{
+        width: 80vw;
+        margin: 100%;
+    }
+    #targetreview3{
+        display: none;
+    }
+    .imagesinofferpage{
+        width: 55vw;
+        flex-direction: column;
+    }
+    .titleofofferpage{
+        width: 7vw;
+        margin: -5rem;
+    }
+    .menupage{
+        width: 305vw;
+    }
+    .contactuspage{
+        width: 305vw;
+    }
+    .content{
+        width: 305vw;
+        height: 175vh;
+    }
+    .center{
+        width: 305vw;
+        height: 205vh;
+    }
+    
+    .navbar{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 305vw;
+        height: 30vh;
+        gap: 2rem;
+    }
+    .logo img{
+        height: 30vh;
+        width: 25vw;
+    }
+    .connectwithus{
+        width: 310vw;
+    }
+    hr{
+        width: 290vw;
+    }
+    .breakfastfood img{
+        width: 80vw;
+        height: 55vh;
+    }
+    .lunchfood img{
+        width: 80vw;
+        height: 55vh;
+    }
+    .snackfood img{
+        width: 80vw;
+        height: 55vh;
+    }
+    .dinnerfood img{
+        width: 80vw;
+        height: 55vh;
+    }
+    .contentofpage{
+        justify-content: space-between;
+    }
+}
+
+
+
+
+
+
+@media(min-width:499px) and (max-width:1029px){
+    .viewmore{
+        width: 210vw;
+    }
+    .toporderimages img{
+        width: 40vw;
+        height: 50vh;
+    }
+    .toporders{
+        width: 210vw;
+    }
+    .offerpage{
+        width: 140vw;
+    }
+    .breakfastfood{
+        width: 215vw;
+    }
+    .lunchfood{
+        width: 215vw;
+    }
+    .snackfood{
+        width: 215vw;
+    }
+    .dinnerfood{
+        width: 215vw;
+    }
+    .certify{
+        gap: -10%;
+    }
+    .reviewcard{
+        width: 50vw;
+        margin: 3%;
+    }
+    .imagesinofferpage{
+        width: 35vw;
+        flex-direction: column;
+    }
+    .titleofofferpage{
+        width: 40vw;
+    }
+    .menupage{
+        width: 220vw;
+    }
+    .contactuspage{
+        width: 220vw;
+    }
+    .content{
+        width: 220vw;
+    }
+    .center{
+        width: 220vw;
+    }
+    .navbar{
+        width: 220vw;
+        height: 15vh;
+    }
+    .connectwithus{
+        width: 225vw;
+    }
+    hr{
+        width: 190vw;
+    }
+    .breakfastfood img{
+        width: 50vw;
+        height: 55vh;
+    }
+    .lunchfood img{
+        width: 50vw;
+        height: 55vh;
+    }
+    .snackfood img{
+        width: 50vw;
+        height: 55vh;
+    }
+    .dinnerfood img{
+        width: 50vw;
+        height: 55vh;
+    }
+    .contentofpage{
+        justify-content: space-between;
+    }
+}
+
+
+
+
+
+
+
+
+
+@media(min-width:1029px) and (max-width:1140px){
+    .toporderimages img{
+        width: 19vw;
+        height: 50vh;
+    }
+    .reviewcard{
+        width: 20vw;
+        height: 30vh;
+        margin: 1%;
+    }
+    .menupage{
+        width: 114vw;
+    }
+    .contactuspage{
+        width: 112vw;
+    }
+    .content{
+        width: 114vw;
+    }
+    .center{
+        width: 114vw;
+    }
+    .navbar{
+        width: 114vw;
+        height: 15vh;
+    }
+    .connectwithus{
+        width: 115vw;
+    }
+    hr{
+        width: 98vw;
+    }
+    .breakfastfood img{
+        width: 25vw;
+    }
+    .lunchfood img{
+        width: 25vw;
+    }
+    .snackfood img{
+        width: 25vw;
+    }
+    .dinnerfood img{
+        width: 25vw;
+    }
+    .contentofpage{
+        justify-content: space-between;
+    }
+}
+
+
+
+
+
+@media(min-width:1140px) and (max-width:1500px){
+    .toporderimages img{
+        width: 20vw;
+        height: 55vh;
+    }
+    .reviewcard{
+        width: 20vw;
+        height: 30vh;
+        margin: -1%;
+    }
+    .menupage{
+        width: 108vw;
+    }
+    .contactuspage{
+        width: 105vw;
+    }
+    .content{
+        width: 108vw;
+    }
+    .center{
+        width: 108vw;
+    }
+    .navbar{
+        width: 108vw;
+        height: 15vh;
+    }
+    .connectwithus{
+        width: 108vw;
+    }
+    hr{
+        width: 98vw;
+    }
+}
+
+
+
+
